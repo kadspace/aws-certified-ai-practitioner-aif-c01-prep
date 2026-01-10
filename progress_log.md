@@ -1,33 +1,67 @@
 # Exam Prep Progress Log
 
-## Summary
-| Domain | Quiz | Date | Score | Notes |
-| :--- | :--- | :--- | :--- | :--- |
-| **Domain 1** | Quiz 01 | 2026-01-09 | **5/5 (100%)** | Perfect score. Great understanding of AI vs ML vs DL, Inference types, and basic services. |
+## Quick Summary
+| Domain | Quiz | Score | Status |
+| :--- | :--- | :--- | :--- |
+| **Domain 1** | Quiz 01 | **5/5 (100%)** | ✅ Ready |
+| **Domain 2** | Quiz 01 | **5/5 (100%)** | ✅ Ready |
+| **Domain 3** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
+| **Domain 4** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
+| **Domain 5** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
+| **Mixed** | Mock 01 | **3/5 (60%)** | 🛑 Focus Area |
 
-## Detailed Logs
+---
 
-### Domain 1: Fundamentals of AI and ML
-- **Quiz 01** (2026-01-09): 5/5
-    - *Strengths*: Definitions, Identifying Services (SageMaker Canvas), Inference types.
-    - *Weaknesses*: None identified yet.
+## Detailed Breakdown
+<details>
+<summary><strong>Domain 1: Fundamentals of AI and ML</strong> (5/5)</summary>
 
-### Domain 2: Fundamentals of Generative AI
-- **Quiz 01** (2026-01-09): **5/5 (100%)**
-    - *Strengths*: Foundation Models, Tokens, Bedrock, Inference Params.
-    - *Notes*: User feels questions are "too easy". limit testing next.
+*   **Quiz 01 Score**: 5/5
+*   **Strengths**: Solid grasp of core definitions (AI vs ML vs DL), Inference types, and identifying basic services (SageMaker Canvas).
+*   **Action Items**: None. Move to next domain.
+</details>
 
-### Domain 3: Applications of Foundation Models
-- **Quiz 01** (2026-01-09): **4/5 (80%)**
-    - *Strengths*: Design choices, RAG basics, Inference Params, PrivateLink.
-    - *Weaknesses*: **Bedrock Agents vs. RAG**. Confused retrieving knowledge (RAG) with executing actions (Agents).
+<details>
+<summary><strong>Domain 2: Fundamentals of Generative AI</strong> (5/5)</summary>
 
-### Domain 4: Guidelines for Responsible AI
-- **Quiz 01** (2026-01-10): **4/5 (80%)**
-    - *Strengths*: Guardrails features, AI Service Cards, PII handling.
-    - *Weaknesses*: **SageMaker Clarify vs. Inspector**. Confused AI Bias detection (Clarify) with Infrastructure Vulnerability scanning (Inspector).
+*   **Quiz 01 Score**: 5/5
+*   **Strengths**: Foundation Models, Tokens, Bedrock access, Inference parameters (Temperature).
+*   **Notes**: User found initial questions "easy".
+</details>
 
-### Domain 5: Security, Compliance, and Governance
-- **Quiz 01** (2026-01-10): **4/5 (80%)**
-    - *Strengths*: Macie vs Inspector, Shared Responsibility, Model Registry.
-    - *Weaknesses*: **SageMaker Role Manager**. Missed that Role Manager provides *templates* to avoid manual IAM policy writing.
+<details>
+<summary><strong>Domain 3: Applications of Foundation Models</strong> (4/5)</summary>
+
+*   **Quiz 01 Score**: 4/5
+*   **Missed Concept**: **Agents vs. RAG**
+    *   *Confusion*: Used RAG (Knowledge) when the scenario required taking action (Booking a flight).
+    *   *Fix*: Remember, **RAG = Reading**. **Agents = Doing** (Action Groups + Lambda).
+</details>
+
+<details>
+<summary><strong>Domain 4: Guidelines for Responsible AI</strong> (4/5)</summary>
+
+*   **Quiz 01 Score**: 4/5
+*   **Missed Concept**: **SageMaker Clarify vs. Amazon Inspector**
+    *   *Confusion*: Confused AI Bias detection with infrastructure scanning.
+    *   *Fix*: **Clarify** = AI Bias/Fairness. **Inspector** = OS/Code Vulnerabilities (CVEs).
+</details>
+
+<details>
+<summary><strong>Domain 5: Security, Compliance, and Governance</strong> (4/5)</summary>
+
+*   **Quiz 01 Score**: 4/5
+*   **Missed Concept**: **SageMaker Role Manager**
+    *   *Confusion*: Tried to use manual IAM users instead of managed templates.
+    *   *Fix*: **Role Manager** provides pre-configured *personas* (Data Scientist, MLOps) to generate policies automatically.
+</details>
+
+<details>
+<summary><strong>Mixed Mock Exam</strong> (3/5)</summary>
+
+*   **Mock Quiz 01 Score**: 3/5
+*   **Missed Concept 1**: **AWS Config vs GuardDuty**
+    *   *Fix*: **Config** checks *settings* (preventative/compliance). **GuardDuty** checks *threats* (active attacks).
+*   **Missed Concept 2**: **Unsupervised vs Reinforcement Learning**
+    *   *Fix*: **Unsupervised** = finding hidden patterns (Clustering) with no labels. **Reinforcement** = learning via rewards/punishment.
+</details>
