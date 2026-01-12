@@ -35,3 +35,13 @@ A rapid mapping of **Generic AI Concept** -> **Specific AWS Service Name**.
 | **Analyze Images/Video** | **Amazon Rekognition** | Face detection, content moderation, celebrity recognition. |
 | **Translate Languages** | **Amazon Translate** | Localization. |
 | **No-Code ML Predictions** | **SageMaker Canvas** | Business analysts, drag-and-drop, CSV input. |
+
+## 5. Key Metrics (The "Scorecard")
+| Metric | Use Case | What it measures |
+| :--- | :--- | :--- |
+| **ROUGE** | **Summarization** | Reviewing text overlap. "Did the model find the *Recall* words?" (Used for text). |
+| **BLEU** | **Translation** | "Did the model get the *Exact Precision* of the phrase?" (Used for French->English). |
+| **F1 Score** | **Classification** | The harmonic balance between Precision and Recall. "Did it catch the bad guys (Recall) without flagging innocents (Precision)?" |
+| **Accuracy** | **Simple Classification** | Simply "Right / Total". Bad for imbalance (e.g., 99% of transactions are legit, so a model saying "All Legit" is 99% accurate but useless). |
+| **Perplexity** | **LLM Fluency** | How "surprised" the model is by language. Lower is better. |
+| **RMSE** | **Regression** | Root Mean Square Error. How far off the numeric prediction was (e.g., predicted $100, actual $105). |
