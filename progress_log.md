@@ -4,7 +4,9 @@
 | Domain | Quiz | Score | Status |
 | :--- | :--- | :--- | :--- |
 | **Domain 1** | Quiz 01 | **5/5 (100%)** | ✅ Ready |
+| **Domain 1** | Quiz 02 | **5/5 (100%)** | ✅ Ready |
 | **Domain 2** | Quiz 01 | **5/5 (100%)** | ✅ Ready |
+| **Domain 2** | Quiz 02 | **5/5 (100%)** | ✅ Ready |
 | **Domain 3** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Domain 4** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Domain 5** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
@@ -17,6 +19,7 @@
 <summary><strong>Domain 1: Fundamentals of AI and ML</strong> (5/5)</summary>
 
 *   **Quiz 01 Score**: 5/5
+*   **Quiz 02 Score (Advanced)**: 5/5
 *   **Strengths**: Solid grasp of core definitions (AI vs ML vs DL), Inference types, and identifying basic services (SageMaker Canvas).
 *   **Action Items**: None. Move to next domain.
 </details>
@@ -25,8 +28,9 @@
 <summary><strong>Domain 2: Fundamentals of Generative AI</strong> (5/5)</summary>
 
 *   **Quiz 01 Score**: 5/5
+*   **Quiz 02 Score (Advanced)**: 5/5
 *   **Strengths**: Foundation Models, Tokens, Bedrock access, Inference parameters (Temperature).
-*   **Notes**: User found initial questions "easy".
+*   **Notes**: User requested a "Service Name Cheat Sheet" to help memorize specific AWS product names.
 </details>
 
 <details>
