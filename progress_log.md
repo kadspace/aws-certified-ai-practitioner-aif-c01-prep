@@ -41,6 +41,10 @@
 *   **Missed Concept**: **Agents vs. RAG**
     *   *Confusion*: Used RAG (Knowledge) when the scenario required taking action (Booking a flight).
     *   *Fix*: Remember, **RAG = Reading**. **Agents = Doing** (Action Groups + Lambda).
+*   **Quiz 02 Score (Advanced)**: 4/5
+    *   **Missed Concept**: **Knowledge Base Syncing (Ingestion)**
+    *   *Confusion*: Thought restarting the Agent updates the data.
+    *   *Fix*: Agents are code; they don't hold data. The **Vector Database** holds data. You must run an **Ingestion Job** to sync S3 -> Vector DB.
 </details>
 
 <details>
