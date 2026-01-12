@@ -10,6 +10,7 @@
 | **Domain 3** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Domain 4** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Domain 5** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
+| **Cheat Sheet**| Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Mixed** | Mock 01 | **3/5 (60%)** | 🛑 Focus Area |
 
 ---
@@ -68,4 +69,13 @@
     *   *Fix*: **Config** checks *settings* (preventative/compliance). **GuardDuty** checks *threats* (active attacks).
 *   **Missed Concept 2**: **Unsupervised vs Reinforcement Learning**
     *   *Fix*: **Unsupervised** = finding hidden patterns (Clustering) with no labels. **Reinforcement** = learning via rewards/punishment.
+</details>
+
+<details>
+<summary><strong>Cheat Sheet & Metrics</strong> (4/5)</summary>
+
+*   **Quiz 01 Score**: 4/5
+*   **Missed Concept**: **Recall vs Precision (ROUGE vs BLEU)**
+    *   *Confusion*: Mixed up Summarization metric (ROUGE) with Translation metric (BLEU).
+    *   *Fix*: **ROUGE** = **R**ecall (Did I get all the key words? -> Summarization). **BLEU** = Precision (Is the phrase exact? -> Translation).
 </details>

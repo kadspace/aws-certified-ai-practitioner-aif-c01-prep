@@ -33,6 +33,7 @@ A rapid mapping of **Generic AI Concept** -> **Specific AWS Service Name**.
 | **Text -> Speech** | **Amazon Polly** | "Talking", voices, pronunciation. |
 | **Analyze Text** | **Amazon Comprehend** | Sentiment, entity recognition, PII detection in text. |
 | **Analyze Images/Video** | **Amazon Rekognition** | Face detection, content moderation, celebrity recognition. |
+| **Extract Text from Docs** | **Amazon Textract** | OCR, PDFs, Forms, Tables, Handwriting. |
 | **Translate Languages** | **Amazon Translate** | Localization. |
 | **No-Code ML Predictions** | **SageMaker Canvas** | Business analysts, drag-and-drop, CSV input. |
 
