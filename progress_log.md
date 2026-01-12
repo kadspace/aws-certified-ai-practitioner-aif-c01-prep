@@ -54,6 +54,9 @@
 *   **Missed Concept**: **SageMaker Clarify vs. Amazon Inspector**
     *   *Confusion*: Confused AI Bias detection with infrastructure scanning.
     *   *Fix*: **Clarify** = AI Bias/Fairness. **Inspector** = OS/Code Vulnerabilities (CVEs).
+*   **Quiz 02 Score (Advanced)**: 5/5
+    *   **Strengths**: Solid grasp of Responsible AI (SHAP, Guardrails, Drift).
+    *   **Note**: User asked about SHAP relevance; yes, specifically "Feature Attribution" is a key exam topic.
 </details>
 
 <details>
