@@ -80,6 +80,9 @@
     *   *Fix*: **Config** checks *settings* (preventative/compliance). **GuardDuty** checks *threats* (active attacks).
 *   **Missed Concept 2**: **Unsupervised vs Reinforcement Learning**
     *   *Fix*: **Unsupervised** = finding hidden patterns (Clustering) with no labels. **Reinforcement** = learning via rewards/punishment.
+*   **Quiz 02 Score (Advanced)**: 5/5
+    *   **Strengths**: Perfect score on the "Boss Fight".
+    *   **Concept Note**: Why not Temperature? Lowering Temperature (0) makes the model *consistent* (it will tell the same lie every time). **Grounding Checks** verify the answer against the source text to prevent lies.
 </details>
 
 <details>
