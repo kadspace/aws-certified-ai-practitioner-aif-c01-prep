@@ -65,7 +65,11 @@
 *   **Quiz 01 Score**: 4/5
 *   **Missed Concept**: **SageMaker Role Manager**
     *   *Confusion*: Tried to use manual IAM users instead of managed templates.
-    *   *Fix*: **Role Manager** provides pre-configured *personas* (Data Scientist, MLOps) to generate policies automatically.
+*   **Quiz 02 Score (Advanced)**: 4/5
+    *   **Missed Concept**: **Service Control Policies (SCPs) vs. Permission Boundaries**
+    *   *Confusion*: Picked Permission Boundaries (Identity-level) instead of SCPs (Organization-level).
+    *   *Fix*: **SCPs** = Global rules for the whole Account (Root). **Boundaries** = Rules for specific Users/Roles.
+    *   **Note**: For Encryption, **Customer Managed Keys (CMK)** is the standard answer for "User wants control".
 </details>
 
 <details>
