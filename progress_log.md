@@ -12,6 +12,10 @@
 | **Domain 5** | Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Cheat Sheet**| Quiz 01 | **4/5 (80%)** | ⚠️ Review |
 | **Mixed** | Mock 01 | **3/5 (60%)** | 🛑 Focus Area |
+| **Mixed** | Mock 02 | **5/5 (100%)** | ✅ Ready |
+| **Mixed** | Mock 03 | **New** | 🆕 To Do |
+| **Graduation**| Mock Exam | **15/20 (75%)** | ⚠️ Review (User reported 74%) |
+| **Service Map**| Quiz 01 | **New** | 🆕 To Do |
 
 ---
 
@@ -92,4 +96,15 @@
 *   **Missed Concept**: **Recall vs Precision (ROUGE vs BLEU)**
     *   *Confusion*: Mixed up Summarization metric (ROUGE) with Translation metric (BLEU).
     *   *Fix*: **ROUGE** = **R**ecall (Did I get all the key words? -> Summarization). **BLEU** = Precision (Is the phrase exact? -> Translation).
+</details>
+
+<details>
+<summary><strong>Recent Activity & Focus Areas</strong></summary>
+
+*   **Practice Quiz Score**: 74%
+*   **Struggle Area**: **AWS Service Mapping**. User specifically mentioned forgetting **Amazon Kendra**.
+*   **Action Taken**: 
+    *   Updated `aws_service_cheat_sheet.md` to include Kendra, Lex, Forecast, and Personalize.
+    *   Created `service_matching_quiz.md` to drill these specific names.
+*   **Next Step**: Take the Service Matching Quiz to solidify the "Generic -> AWS" mapping.
 </details>

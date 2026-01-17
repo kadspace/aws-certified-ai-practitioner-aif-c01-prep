@@ -35,6 +35,10 @@ A rapid mapping of **Generic AI Concept** -> **Specific AWS Service Name**.
 | **Analyze Images/Video** | **Amazon Rekognition** | Face detection, content moderation, celebrity recognition. |
 | **Extract Text from Docs** | **Amazon Textract** | OCR, PDFs, Forms, Tables, Handwriting. |
 | **Translate Languages** | **Amazon Translate** | Localization. |
+| **Intelligent Search** | **Amazon Kendra** | Enterprise search, document crawler (S3/SharePoint), Semantic search for RAG. |
+| **Build Chatbots** | **Amazon Lex** | Conversational AI, Intent, Utterance, Slot, Alexa-style. |
+| **Personalized Recs** | **Amazon Personalize** | "Customers who bought this also bought...", recommendation engine. |
+| **Predictive Analytics** | **Amazon Forecast** | Time-series, inventory planning, demand forecasting. |
 | **No-Code ML Predictions** | **SageMaker Canvas** | Business analysts, drag-and-drop, CSV input. |
 
 ## 5. Key Metrics (The "Scorecard")
